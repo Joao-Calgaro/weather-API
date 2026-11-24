@@ -1,6 +1,6 @@
 # API de Clima
 
-Salva e exibe dados meteorológicos (3 dias passados, hoje e 3 dias futuros) de qualquer cidade. Default: Porto Alegre.
+Salva e exibe dados meteorológicos (3 dias passados, hoje e 3 dias futuros) de qualquer cidade. Default: **Porto Alegre**.
 Dados via [Open-Meteo](https://open-meteo.com).
 
 ## Como rodar
@@ -19,7 +19,7 @@ Abra http://localhost:8000
 | `GET /api/clima?cidade=Curitiba` | JSON com os 7 dias (e salva no banco) |
 | `GET /api/grafico?cidade=Curitiba` | Gráfico em PNG |
 
-Sem o parâmetro `cidade`, usa Porto Alegre. Clique em **Try it out**, edite a cidade e **Execute**.
+Sem o parâmetro `cidade`, usa **Porto Alegre**. Clique em Try it out, edite a cidade e Execute.
 
 ## Arquivos
 
